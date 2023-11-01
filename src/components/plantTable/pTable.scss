@@ -1,0 +1,16 @@
+.table{
+    .status{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.Premium{
+            color: green;
+            background-color: rgba(0,128,0,0.151);
+        }
+
+        &.NonPremium{
+            color: goldenrod;
+            background-color: rgba(128, 128, 0, 0.362);
+        }
+    }
+}
